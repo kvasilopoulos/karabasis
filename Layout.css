@@ -1,58 +1,60 @@
- body {
-     font-family: 'Calibri', sans-serif;
-     font-size: 18px;
-     line-height: 1.6;
- }
+body {
+    font-family: 'Calibri', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
 
- .navbar {
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
- #artistic-title {
-     background-color: #f8f9fa;
-     padding: 40px 0;
- }
+#artistic-title {
+    background-color: #e6e6e6;
+    /* Darker grey */
+    padding: 40px 0;
+}
 
- #new-section {
-     background-color: #fdfdfd;
-     padding: 60px 0;
- }
+#about {
+    background-color: #fdfdfd;
+    padding: 60px 0;
+}
 
- #new-section h2 {
-     font-family: 'Brush Script MT', cursive;
-     color: #333;
- }
+#about h2 {
+    font-family: 'Brush Script MT', cursive;
+    color: #333;
+}
 
- #new-section p {
-     margin-bottom: 20px;
- }
+#about p {
+    margin-bottom: 20px;
+}
 
- #contact {
-     background-color: #f8f9fa;
-     padding: 60px 0;
- }
+#contact {
+    background-color: #e6e6e6;
+    /* Darker grey */
+    padding: 60px 0;
+}
 
- #services {
-     /* background-color: #E6D44E; */
-     padding: 60px 0;
- }
+#services {
+    /* background-color: #E6D44E; */
+    padding: 60px 0;
+}
 
- #portfolio {
-     background-color: #fdfdfd;
-     padding: 60px 0;
- }
+#discounts {
+    background-color: #e6e6e6;
+    padding: 60px 0;
+}
 
- footer {
-     background-color: #343a40;
-     color: #fff;
-     padding: 20px 0;
- }
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
 
- .social-icons a {
-     margin: 0 10px;
-     color: #fff;
- }
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+}
 
- .social-icons a:hover {
-     color: #E6D44E;
- }
+.social-icons a:hover {
+    color: #E6D44E;
+}
