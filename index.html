@@ -11,13 +11,19 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="/Layout.css">
+  <style>
+
+  </style>
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg bg-warning border-bottom border-body" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Ηλεκτρολόγος</a>
+      <a class="navbar-brand" href="#">
+        <img src="/img/logo.png" alt="Logo" style="height: 40px;">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,11 +34,15 @@
             <a class="nav-link" href="#about">Σχετικά</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Υπηρεσίες</a>
+            <a class="nav-link" href="#contact">Επικοινωνία</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Πορτφόλιο</a>
+            <a class="nav-link" href="#services">Υπηρεσίες</a>
           </li>
+          <li>
+            <a class="nav-link" href="#discounts">Εκπτώσεις</a>
+          </li>
+
           <!-- <li class="nav-item">
               <a class="nav-link" href="#contact">Επικοινωνία</a>
             </li> -->
@@ -42,96 +52,130 @@
   </nav>
 
   <!-- Artistic Title Section -->
-  <section id="artistic-title" class="d-flex align-items-center justify-content-center"
-    style="height: 20vh; background-color: #fdfdfd;">
-    <h1 class="display-1 text-center" style="font-family: 'Brush Script MT', cursive; color: #333;">
-      Ηλεκτρολόγος Θεσσαλονίκης
-    </h1>
-  </section>
-
-  <!-- New Section with 2 Columns -->
-  <section id="new-section" class="py-5">
-    <div class="container" style="padding-top:20px;">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="https://via.placeholder.com/350x500" class="img-fluid" alt="Sample Image">
-        </div>
-        <div class="col-md-7 offset-1">
-          <h2 class="text-center">Παναγιώτης Καραμπάσης</h2>
-          <br>
-          <p>Είμαι επαγγελματίας ηλεκτρολόγος με πάνω από 10 χρόνια εμπειρίας...</p>
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum earum quidem neque iure assumenda
-            officiis tenetur velit sit hic quas. Dolores tenetur, et voluptas quas corrupti fuga possimus voluptatibus
-            amet.</p>
-          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum earum quidem neque iure assumenda
-            officiis tenetur velit sit hic quas. Dolores tenetur, et voluptas quas corrupti fuga possimus voluptatibus
-            amet.</p>
-
-          <div class="row">
-            <div class="col-md-6 ">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Front of Card">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Front of Card</h5>
-                <p class="card-text">Details about the front of the card.</p> -->
-              </div>
-            </div>
-            <div class="col-md-6">
-              <img src="https://via.placeholder.com/300x200" class="card-img-top" alt="Back of Card">
-              <div class="card-body">
-                <!-- <h5 class="card-title">Back of Card</h5>
-                <p class="card-text">Details about the back of the card.</p> -->
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- Artistic Title Section -->
+  <section id="artistic-title" class="d-flex flex-column align-items-center justify-content-center">
+    <div class="row">
+      <div class="col text-center">
+        <p class="h1" style="color: #333;">
+          Ηλεκτρολόγος Θεσσαλονίκης
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="h2" style="color: #333;">Παναγιώτης Καραμπάσης</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center">
+        <p class="h4" style="color: #666;">
+          Επαγγελματικές Υπηρεσίες Ηλεκτρολογίας
+        </p>
+      </div>
+    </div>
   </section>
 
   <!-- About Section -->
-  <!-- <section id="about" class="py-5">
+  <section id="about">
     <div class="container">
-      <h2 class="text-center">Σχετικά με Εμένα</h2>
-      <p class="text-center">Είμαι επαγγελματίας ηλεκτρολόγος με πάνω από 10 χρόνια εμπειρίας...</p>
-    </div>
-  </section> -->
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-light position-relative">
-    <div class="container">
-      <div class="row mt-4 wpb_wrapper d-flex justify-content-center">
-        <h2 class="text-center">Επικοινωνία</h2>
-        <div style="padding-bottom:10px;"></div>
-
-        <div class=" col-md-4 text-center">
-          <p><i class="bi bi-telephone"></i> Τηλέφωνο: <a href="tel:+1234567890">+1 234 567 890</a></p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="/img/avatar.jpg" class="card-img" alt="Sample Image">
+          </div>
         </div>
-        <div class="col-md-4 text-center">
-          <p><i class="bi bi-chat-dots"></i> Viber: <a href="viber://add?number=1234567890">+1 234 567 890</a></p>
-        </div>
-        <div class="col-md-4 text-center">
-          <p><i class="bi bi-envelope"></i> Email: <a href="mailto:asd">Στείλτε μας email</a></p>
+        <div class="col-md-7 offset-1">
+          <div class="card border-0">
+            <div class="card-body">
+              <p>Είμαι επαγγελματίας ηλεκτρολόγος με πάνω από 10 χρόνια εμπειρίας, προσφέροντας αξιόπιστες και ποιοτικές
+                υπηρεσίες στην περιοχή της Θεσσαλονίκης. Η δουλειά μου χαρακτηρίζεται από επαγγελματισμό, συνέπεια και
+                προσωπική φροντίδα για κάθε πελάτη.</p>
+              <p>Αντιμετωπίζω κάθε έργο με την ίδια προσοχή και αφοσίωση, είτε πρόκειται για μικρές επισκευές είτε για
+                μεγαλύτερες εγκαταστάσεις. Στόχος μου είναι να παρέχω λύσεις που καλύπτουν τις ανάγκες σας, με ασφάλεια
+                και
+                αποτελεσματικότητα.</p>
+              <p>Είμαι πάντα διαθέσιμος να συζητήσουμε τις απαιτήσεις σας και να σας προσφέρω την καλύτερη δυνατή
+                εξυπηρέτηση. Εμπιστευτείτε με για όλες τις ηλεκτρολογικές σας ανάγκες και θα διαπιστώσετε την διαφορά
+                που
+                μπορεί να κάνει ένας επαγγελματίας που νοιάζεται πραγματικά για τη δουλειά του και τους πελάτες του.</p>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px;">
+            <div class="col-md-6">
+              <div class="card shadow">
+                <img src="/img/front.png" class="card-img-top" alt="Front of Card">
+
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card shadow">
+                <img src="/img/back.png" class="card-img-top" alt="Back of Card">
+
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="row mt-4 wpb_wrapper d-flex justify-content-center">
+        <h2 class="text-center">Επικοινωνία</h2>
+        <div style="padding-bottom:10px;"></div>
+        <div class=" col-md-4 text-center">
+          <p><i class="bi bi-telephone"></i> Τηλέφωνο: <a href="tel:+306986915489">6986915489</a></p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p><i class="bi bi-chat-dots"></i> Viber:
+            <a href="viber://add?number=6986915489">
+              6986915489
+            </a>
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <p><i class="bi bi-envelope"></i> Email: <a
+              href="mailto:karabasispanagiotis@gmail.com">karabasispanagiotis@gmail.com</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Services Section -->
-  <section id="services" class="py-5" style="background-color: #f3ce3c;">
+  <section id="services" class="py-5">
     <div class="container">
       <h2 class="text-center">Υπηρεσίες</h2>
+      <br>
       <div class="row">
         <div class="col-md-4">
-          <h3>Οικιακές</h3>
-          <p>Ηλεκτρικές εγκαταστάσεις, επισκευές και συντήρηση για σπίτια...</p>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Οικιακές</h3>
+              <p class="card-text">Ηλεκτρικές εγκαταστάσεις, επισκευές και συντήρηση για σπίτια. Εξασφαλίζουμε την
+                ασφάλεια και την άνεση του σπιτιού σας με επαγγελματισμό και συνέπεια.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <h3>Εμπορικές</h3>
-          <p>Ηλεκτρικές υπηρεσίες για επιχειρήσεις και εμπορικά ακίνητα...</p>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Εμπορικές</h3>
+              <p class="card-text">Ηλεκτρικές υπηρεσίες για επιχειρήσεις και εμπορικά ακίνητα. Παρέχουμε λύσεις που
+                καλύπτουν τις ανάγκες της επιχείρησής σας με αξιοπιστία και αποτελεσματικότητα.</p>
+            </div>
+          </div>
         </div>
         <div class="col-md-4">
-          <h3>Έκτακτες</h3>
-          <p>24/7 έκτακτες ηλεκτρικές υπηρεσίες...</p>
+          <div class="card mb-4">
+            <div class="card-body">
+              <h3 class="card-title">Έκτακτες</h3>
+              <p class="card-text">24/7 έκτακτες ηλεκτρικές υπηρεσίες. Είμαστε διαθέσιμοι οποιαδήποτε στιγμή για να
+                αντιμετωπίσουμε άμεσα και αποτελεσματικά κάθε ηλεκτρολογική βλάβη.</p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="mt-4">
@@ -163,8 +207,25 @@
     </div>
   </section>
 
+  <!-- Discounts Section -->
+  <section id="discounts" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Εκπτώσεις</h2>
+      <p class="text-center">Προσφέρουμε ειδικές εκπτώσεις για φοιτητές και A.M.E.A.. Επικοινωνήστε μαζί μας για να
+        μάθετε περισσότερα και να επωφεληθείτε από τις προσφορές μας.</p>
+      <div class="row">
+        <div class="col-md-6 text-center">
+          <p><i class="bi bi-person"></i> Έκπτωση για Φοιτητές: <strong>10%</strong></p>
+        </div>
+        <div class="col-md-6 text-center">
+          <p><i class="bi bi-briefcase"></i> Έκπτωση για A.M.E.A.: <strong>10%</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Portfolio Section -->
-  <section id="portfolio" class="py-5">
+  <!-- <section id="portfolio">
     <div class="container">
       <h2 class="text-center">Πορτφόλιο</h2>
       <div class="row">
@@ -179,21 +240,23 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer class="bg-dark text-light text-center py-3">
-    <p>Ηλεκτρολόγος &copy; 2021</p>
-    <div class="social-icons">
-      <a href="https://www.facebook.com" target="_blank" rel="noopener" class="text-light me-3">
-        <i class="bi bi-facebook"></i>
-      </a>
-      <a href="https://www.twitter.com" target="_blank" rel="noopener" class="text-light me-3">
-        <i class="bi bi-twitter"></i>
-      </a>
-      <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="text-light">
-        <i class="bi bi-linkedin"></i>
-      </a>
+  <footer class="bg-dark text-light py-3">
+    <div class="container text-center">
+      <p>Ηλεκτρολόγος &copy; 2024</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" class="text-light me-3">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.twitter.com" target="_blank" rel="noopener" class="text-light me-3">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <!-- <a href="https://www.linkedin.com" target="_blank" rel="noopener" class="text-light">
+          <i class="bi bi-linkedin"></i>
+        </a> -->
+      </div>
     </div>
   </footer>
 
